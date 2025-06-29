@@ -7,13 +7,14 @@
 > If you're looking for proxy for helm, maybe you can try [cloudflare-helm-proxy](https://github.com/ciiiii/cloudflare-helm-proxy).
 
 ## Deploy
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/wsw145236/cloudflare-docker-proxy)
 
 1. click the "Deploy With Workers" button
 2. follow the instructions to fork and deploy
 3. update routes as you requirement
 
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ciiiii/cloudflare-docker-proxy)
-
+https://github.com/wsw145236/cloudflare-docker-proxy
 ## Routes configuration tutorial
 
 1. use cloudflare worker host: only support proxy one registry
