@@ -17,13 +17,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
  routes = [
-   { pattern = "docker.15154415.xyz", custom_domain = true },
-   { pattern = "quay.15154415.xyz", custom_domain = true },
-   { pattern = "gcr.15154415.xyz", custom_domain = true },
-   { pattern = "k8s-gcr.15154415.xyz", custom_domain = true },
-   { pattern = "k8s.15154415.xyz", custom_domain = true },
-   { pattern = "ghcr.15154415.xyz", custom_domain = true },
-   { pattern = "cloudsmith.15154415.xyz", custom_domain = true },
+   { pattern = "docker.xiaowu.ip-ddns.com", custom_domain = true },
+   { pattern = "quay.xiaowu.ip-ddns.com", custom_domain = true },
+   { pattern = "gcr.xiaowu.ip-ddns.com", custom_domain = true },
+   { pattern = "k8s-gcr.xiaowu.ip-ddns.com", custom_domain = true },
+   { pattern = "k8s.xiaowu.ip-ddns.com", custom_domain = true },
+   { pattern = "ghcr.xiaowu.ip-ddns.com", custom_domain = true },
+   { pattern = "cloudsmith.xiaowu.ip-ddns.com", custom_domain = true },
  ]
 
 [env.production.vars]
@@ -32,7 +32,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-# route = { pattern = "docker-staging.15154415.xyz", custom_domain = true }
+# route = { pattern = "docker-staging.xiaowu.ip-ddns.com", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
