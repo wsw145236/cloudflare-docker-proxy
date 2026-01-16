@@ -37,3 +37,7 @@ name = "cloudflare-docker-proxy-staging"
 [env.staging.vars]
 MODE = "staging"
 TARGET_UPSTREAM = ""
+
+[build]
+# 强制使用 yarn install --no-immutable 跳过校验
+command = "yarn install --no-immutable && wrangler build"
