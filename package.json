@@ -1,8 +1,8 @@
 {
   "name": "cf-docker-proxy",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
+    "preinstall": "yarn config set enableImmutableInstalls false",
     "deploy": "wrangler deploy",
     "dev": "wrangler dev"
   },
