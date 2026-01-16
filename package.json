@@ -19,3 +19,9 @@
   "license": "MIT",
   "main": "src/index.js"
 }
+{
+  "scripts": {
+    "build": "wrangler build",
+    "preinstall": "yarn config set enableImmutableInstalls false"
+  }
+}
